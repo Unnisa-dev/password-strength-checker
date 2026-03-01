@@ -1,4 +1,4 @@
-# 🔐 Password Strength Checker
+#  Password Strength Checker
 
 A professional CLI-based Python application that evaluates the strength of a password using multiple validation rules.
 
@@ -57,7 +57,7 @@ password-strength-checker/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 python main.py
@@ -122,7 +122,7 @@ This project helped reinforce:
 ## Author
 
 **Sanaa**  
-Python Learner | Data Enthusiast | Building in Public 
+Python Learner | Building in Public 
 
 ---
 
