@@ -65,7 +65,7 @@ python main.py
 
 ---
 
-## 🧠 How the Strength Scoring Works
+##  How the Strength Scoring Works
 
 The password receives 1 point for each condition met:
 
@@ -85,19 +85,19 @@ The password receives 1 point for each condition met:
 
 ---
 
-## 📷 Example Output
+##  Example Output
 
 ```
 Enter your password: Hello@123
 ✅ Strong Password
 
 Do you want to try again? (y/n): n
-Thank you for using Password Strength Checker 🚀
+Thank you for using Password Strength Checker 
 ```
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 This project helped reinforce:
 
@@ -109,7 +109,7 @@ This project helped reinforce:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Hide password input using `getpass`
 - Add password improvement suggestions
