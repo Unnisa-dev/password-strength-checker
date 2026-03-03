@@ -30,7 +30,7 @@
 <body onload="brython()">
 
 <span class="green">
-Click <button class="run-btn" onclick="run_program()">Run</button> 
+Click <button id="run-btn" class="run-btn">Run</button>
 to run the Password Strength Checker.
 </span>
 
@@ -60,10 +60,15 @@ def check_password(password):
     else:
         return "✅ Strong Password"
 
-def run_program():
+def run_program(event):
     password = window.prompt("Enter your password:")
+    if password is None:
+        return
     result = check_password(password)
     document["output"].text = result
+
+# Bind button click properly
+document["run-btn"].bind("click", run_program)
 </script>
 
 </body>
